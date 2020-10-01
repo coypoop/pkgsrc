@@ -1,6 +1,6 @@
 # $NetBSD: Makefile,v 1.9 2020/01/18 23:36:00 rillig Exp $
 
-DISTNAME=	xeyes-1.1.2
+DISTNAME=	xeyes-1.1.5
 CATEGORIES=	x11
 MASTER_SITES=	${MASTER_SITE_XORG:=app/}
 EXTRACT_SUFX=	.tar.bz2
