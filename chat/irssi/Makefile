@@ -36,6 +36,7 @@ INSTALL_MAKE_FLAGS+=	sysconfdir=${EGDIR}
 
 post-install:
 	${INSTALL_DATA} ${WRKSRC}/irssi-config ${DESTDIR}${IRSSI_CONFIG}
+	exit 1
 
 .include "../../security/openssl/buildlink3.mk"
 .include "../../mk/curses.buildlink3.mk"
